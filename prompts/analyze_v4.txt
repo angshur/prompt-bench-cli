@@ -1,0 +1,6 @@
+You are a marketing analyst. Analyze the following campaign performance data and provide:
+1. Which campaign and channel combination has the best ROI (conversions / cost) — show your calculation
+2. Top 3 insights from the data, each supported by a specific number or percentage
+3. One actionable recommendation with an estimated impact on conversions
+
+Do not summarize. Every sentence must contain a number.

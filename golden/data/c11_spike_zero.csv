@@ -1,0 +1,71 @@
+date,account_name,campaign_name,channel,impressions,clicks,conversions,cost
+2026-03-01,Demo Account,Spring Sale - Search,Google Ads,13698,825,49,1247
+2026-03-01,Demo Account,Spring Sale - Social,Facebook Ads,14934,875,30,944
+2026-03-01,Demo Account,Lawn Care Promo,Google Ads,12084,752,34,939
+2026-03-01,Demo Account,Brand Awareness - Video,YouTube Ads,9054,536,0,858
+2026-03-01,Demo Account,Retargeting - Display,Display,8137,477,36,519
+2026-03-02,Demo Account,Spring Sale - Search,Google Ads,13377,752,38,1000
+2026-03-02,Demo Account,Spring Sale - Social,Facebook Ads,12331,780,35,898
+2026-03-02,Demo Account,Lawn Care Promo,Google Ads,11595,686,37,941
+2026-03-02,Demo Account,Brand Awareness - Video,YouTube Ads,9810,508,0,845
+2026-03-02,Demo Account,Retargeting - Display,Display,8121,559,37,559
+2026-03-03,Demo Account,Spring Sale - Search,Google Ads,11745,768,33,1126
+2026-03-03,Demo Account,Spring Sale - Social,Facebook Ads,15683,786,36,1005
+2026-03-03,Demo Account,Lawn Care Promo,Google Ads,11938,663,43,828
+2026-03-03,Demo Account,Brand Awareness - Video,YouTube Ads,9346,487,0,883
+2026-03-03,Demo Account,Retargeting - Display,Display,6713,453,40,527
+2026-03-04,Demo Account,Spring Sale - Search,Google Ads,10512,731,43,1087
+2026-03-04,Demo Account,Spring Sale - Social,Facebook Ads,15071,768,29,882
+2026-03-04,Demo Account,Lawn Care Promo,Google Ads,13528,631,35,844
+2026-03-04,Demo Account,Brand Awareness - Video,YouTube Ads,7654,454,0,775
+2026-03-04,Demo Account,Retargeting - Display,Display,10333,521,41,2500
+2026-03-05,Demo Account,Spring Sale - Search,Google Ads,13890,747,38,986
+2026-03-05,Demo Account,Spring Sale - Social,Facebook Ads,15210,1003,47,1097
+2026-03-05,Demo Account,Lawn Care Promo,Google Ads,10768,623,35,906
+2026-03-05,Demo Account,Brand Awareness - Video,YouTube Ads,9014,507,0,878
+2026-03-05,Demo Account,Retargeting - Display,Display,9004,534,35,529
+2026-03-06,Demo Account,Spring Sale - Search,Google Ads,15752,939,52,1188
+2026-03-06,Demo Account,Spring Sale - Social,Facebook Ads,10582,736,27,919
+2026-03-06,Demo Account,Lawn Care Promo,Google Ads,10438,705,32,876
+2026-03-06,Demo Account,Brand Awareness - Video,YouTube Ads,6600,440,0,743
+2026-03-06,Demo Account,Retargeting - Display,Display,7272,440,31,430
+2026-03-07,Demo Account,Spring Sale - Search,Google Ads,11984,680,29,1014
+2026-03-07,Demo Account,Spring Sale - Social,Facebook Ads,15985,872,35,987
+2026-03-07,Demo Account,Lawn Care Promo,Google Ads,13225,604,38,800
+2026-03-07,Demo Account,Brand Awareness - Video,YouTube Ads,7290,501,0,899
+2026-03-07,Demo Account,Retargeting - Display,Display,9145,472,33,495
+2026-03-08,Demo Account,Spring Sale - Search,Google Ads,15803,857,48,1228
+2026-03-08,Demo Account,Spring Sale - Social,Facebook Ads,12551,743,27,947
+2026-03-08,Demo Account,Lawn Care Promo,Google Ads,12915,621,38,801
+2026-03-08,Demo Account,Brand Awareness - Video,YouTube Ads,6477,454,0,832
+2026-03-08,Demo Account,Retargeting - Display,Display,9227,534,44,512
+2026-03-09,Demo Account,Spring Sale - Search,Google Ads,14454,758,38,1028
+2026-03-09,Demo Account,Spring Sale - Social,Facebook Ads,13379,796,37,899
+2026-03-09,Demo Account,Lawn Care Promo,Google Ads,15301,700,34,923
+2026-03-09,Demo Account,Brand Awareness - Video,YouTube Ads,11848,552,0,910
+2026-03-09,Demo Account,Retargeting - Display,Display,11491,525,46,527
+2026-03-10,Demo Account,Spring Sale - Search,Google Ads,16022,836,43,1056
+2026-03-10,Demo Account,Spring Sale - Social,Facebook Ads,17420,803,29,971
+2026-03-10,Demo Account,Lawn Care Promo,Google Ads,15071,711,38,1029
+2026-03-10,Demo Account,Brand Awareness - Video,YouTube Ads,7304,397,0,713
+2026-03-10,Demo Account,Retargeting - Display,Display,8090,476,38,513
+2026-03-11,Demo Account,Spring Sale - Search,Google Ads,14482,696,31,958
+2026-03-11,Demo Account,Spring Sale - Social,Facebook Ads,14062,813,36,898
+2026-03-11,Demo Account,Lawn Care Promo,Google Ads,12395,599,40,822
+2026-03-11,Demo Account,Brand Awareness - Video,YouTube Ads,7041,432,0,759
+2026-03-11,Demo Account,Retargeting - Display,Display,6267,417,35,475
+2026-03-12,Demo Account,Spring Sale - Search,Google Ads,13170,925,51,1205
+2026-03-12,Demo Account,Spring Sale - Social,Facebook Ads,14896,839,27,1023
+2026-03-12,Demo Account,Lawn Care Promo,Google Ads,11060,549,32,821
+2026-03-12,Demo Account,Brand Awareness - Video,YouTube Ads,7787,449,0,706
+2026-03-12,Demo Account,Retargeting - Display,Display,8051,473,36,482
+2026-03-13,Demo Account,Spring Sale - Search,Google Ads,13458,870,37,1170
+2026-03-13,Demo Account,Spring Sale - Social,Facebook Ads,11639,698,33,855
+2026-03-13,Demo Account,Lawn Care Promo,Google Ads,15500,710,47,938
+2026-03-13,Demo Account,Brand Awareness - Video,YouTube Ads,7160,372,0,685
+2026-03-13,Demo Account,Retargeting - Display,Display,8519,415,34,484
+2026-03-14,Demo Account,Spring Sale - Search,Google Ads,13950,831,40,1232
+2026-03-14,Demo Account,Spring Sale - Social,Facebook Ads,13135,773,30,969
+2026-03-14,Demo Account,Lawn Care Promo,Google Ads,14513,725,37,910
+2026-03-14,Demo Account,Brand Awareness - Video,YouTube Ads,7585,432,0,681
+2026-03-14,Demo Account,Retargeting - Display,Display,10800,558,49,535

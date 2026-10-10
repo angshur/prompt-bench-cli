@@ -1,0 +1,20 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install anthropic openai google-generativeai
+      - run: python -m unittest discover -s tests -v
+      - name: Harness smoke test with mock models (no API calls)
+        run: |
+          python -m promptbench golden
+          python -m promptbench run --prompts analyze_v1,analyze_v6 --models mock:good --reps 1 --label ci
+          python -m promptbench report

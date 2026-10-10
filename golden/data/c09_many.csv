@@ -1,0 +1,85 @@
+date,account_name,campaign_name,channel,impressions,clicks,conversions,cost
+2026-03-01,Demo Account,Spring Sale - Search,Google Ads,14524,891,51,1184
+2026-03-01,Demo Account,Spring Sale - Social,Facebook Ads,11205,779,37,985
+2026-03-01,Demo Account,Lawn Care Promo,Google Ads,12666,648,34,942
+2026-03-01,Demo Account,Brand Awareness - Video,YouTube Ads,7716,511,11,804
+2026-03-01,Demo Account,Retargeting - Display,Display,7991,392,30,427
+2026-03-01,Demo Account,Newsletter Signup,LinkedIn Ads,6223,363,11,633
+2026-03-02,Demo Account,Spring Sale - Search,Google Ads,17018,817,46,1047
+2026-03-02,Demo Account,Spring Sale - Social,Facebook Ads,15465,818,32,990
+2026-03-02,Demo Account,Lawn Care Promo,Google Ads,14636,711,42,1018
+2026-03-02,Demo Account,Brand Awareness - Video,YouTube Ads,5576,382,9,700
+2026-03-02,Demo Account,Retargeting - Display,Display,11142,543,39,558
+2026-03-02,Demo Account,Newsletter Signup,LinkedIn Ads,5943,359,13,709
+2026-03-03,Demo Account,Spring Sale - Search,Google Ads,10662,694,36,988
+2026-03-03,Demo Account,Spring Sale - Social,Facebook Ads,15235,804,34,1049
+2026-03-03,Demo Account,Lawn Care Promo,Google Ads,10289,603,34,780
+2026-03-03,Demo Account,Brand Awareness - Video,YouTube Ads,11050,507,12,904
+2026-03-03,Demo Account,Retargeting - Display,Display,8594,470,42,505
+2026-03-03,Demo Account,Newsletter Signup,LinkedIn Ads,7046,340,13,584
+2026-03-04,Demo Account,Spring Sale - Search,Google Ads,12362,777,46,1100
+2026-03-04,Demo Account,Spring Sale - Social,Facebook Ads,15418,722,30,851
+2026-03-04,Demo Account,Lawn Care Promo,Google Ads,14027,826,48,1024
+2026-03-04,Demo Account,Brand Awareness - Video,YouTube Ads,9630,440,10,722
+2026-03-04,Demo Account,Retargeting - Display,Display,7524,499,36,491
+2026-03-04,Demo Account,Newsletter Signup,LinkedIn Ads,6800,363,10,685
+2026-03-05,Demo Account,Spring Sale - Search,Google Ads,12753,765,40,1091
+2026-03-05,Demo Account,Spring Sale - Social,Facebook Ads,18158,917,32,1144
+2026-03-05,Demo Account,Lawn Care Promo,Google Ads,9852,539,33,782
+2026-03-05,Demo Account,Brand Awareness - Video,YouTube Ads,8202,515,11,838
+2026-03-05,Demo Account,Retargeting - Display,Display,9935,508,43,511
+2026-03-05,Demo Account,Newsletter Signup,LinkedIn Ads,6089,418,15,704
+2026-03-06,Demo Account,Spring Sale - Search,Google Ads,16661,858,45,1098
+2026-03-06,Demo Account,Spring Sale - Social,Facebook Ads,12755,882,32,1042
+2026-03-06,Demo Account,Lawn Care Promo,Google Ads,8456,599,31,878
+2026-03-06,Demo Account,Brand Awareness - Video,YouTube Ads,9909,494,11,888
+2026-03-06,Demo Account,Retargeting - Display,Display,10715,567,45,573
+2026-03-06,Demo Account,Newsletter Signup,LinkedIn Ads,5493,329,11,619
+2026-03-07,Demo Account,Spring Sale - Search,Google Ads,19043,903,54,1168
+2026-03-07,Demo Account,Spring Sale - Social,Facebook Ads,17615,947,33,1089
+2026-03-07,Demo Account,Lawn Care Promo,Google Ads,12909,792,51,982
+2026-03-07,Demo Account,Brand Awareness - Video,YouTube Ads,7268,496,9,811
+2026-03-07,Demo Account,Retargeting - Display,Display,7803,519,33,554
+2026-03-07,Demo Account,Newsletter Signup,LinkedIn Ads,5463,314,9,584
+2026-03-08,Demo Account,Spring Sale - Search,Google Ads,12344,817,46,1056
+2026-03-08,Demo Account,Spring Sale - Social,Facebook Ads,12991,848,34,1041
+2026-03-08,Demo Account,Lawn Care Promo,Google Ads,10715,741,35,950
+2026-03-08,Demo Account,Brand Awareness - Video,YouTube Ads,5940,405,8,697
+2026-03-08,Demo Account,Retargeting - Display,Display,9880,521,33,525
+2026-03-08,Demo Account,Newsletter Signup,LinkedIn Ads,7131,380,12,652
+2026-03-09,Demo Account,Spring Sale - Search,Google Ads,12676,680,29,1012
+2026-03-09,Demo Account,Spring Sale - Social,Facebook Ads,17560,856,39,990
+2026-03-09,Demo Account,Lawn Care Promo,Google Ads,12444,795,52,997
+2026-03-09,Demo Account,Brand Awareness - Video,YouTube Ads,7107,460,11,705
+2026-03-09,Demo Account,Retargeting - Display,Display,8039,469,39,502
+2026-03-09,Demo Account,Newsletter Signup,LinkedIn Ads,5604,354,13,610
+2026-03-10,Demo Account,Spring Sale - Search,Google Ads,11767,687,29,973
+2026-03-10,Demo Account,Spring Sale - Social,Facebook Ads,13581,725,26,917
+2026-03-10,Demo Account,Lawn Care Promo,Google Ads,11750,554,33,830
+2026-03-10,Demo Account,Brand Awareness - Video,YouTube Ads,8409,506,9,767
+2026-03-10,Demo Account,Retargeting - Display,Display,8071,417,37,454
+2026-03-10,Demo Account,Newsletter Signup,LinkedIn Ads,7436,377,15,662
+2026-03-11,Demo Account,Spring Sale - Search,Google Ads,14898,768,37,1077
+2026-03-11,Demo Account,Spring Sale - Social,Facebook Ads,17458,897,33,992
+2026-03-11,Demo Account,Lawn Care Promo,Google Ads,14020,733,34,977
+2026-03-11,Demo Account,Brand Awareness - Video,YouTube Ads,6318,394,9,726
+2026-03-11,Demo Account,Retargeting - Display,Display,8749,505,34,574
+2026-03-11,Demo Account,Newsletter Signup,LinkedIn Ads,8236,414,12,744
+2026-03-12,Demo Account,Spring Sale - Search,Google Ads,19647,968,46,1241
+2026-03-12,Demo Account,Spring Sale - Social,Facebook Ads,15761,1031,35,1144
+2026-03-12,Demo Account,Lawn Care Promo,Google Ads,13523,635,31,786
+2026-03-12,Demo Account,Brand Awareness - Video,YouTube Ads,10825,516,12,841
+2026-03-12,Demo Account,Retargeting - Display,Display,9938,531,48,519
+2026-03-12,Demo Account,Newsletter Signup,LinkedIn Ads,6663,332,12,565
+2026-03-13,Demo Account,Spring Sale - Search,Google Ads,14564,838,40,1211
+2026-03-13,Demo Account,Spring Sale - Social,Facebook Ads,15370,808,26,987
+2026-03-13,Demo Account,Lawn Care Promo,Google Ads,8233,567,37,802
+2026-03-13,Demo Account,Brand Awareness - Video,YouTube Ads,12265,575,12,889
+2026-03-13,Demo Account,Retargeting - Display,Display,9027,533,42,562
+2026-03-13,Demo Account,Newsletter Signup,LinkedIn Ads,7358,344,12,670
+2026-03-14,Demo Account,Spring Sale - Search,Google Ads,11366,783,42,1185
+2026-03-14,Demo Account,Spring Sale - Social,Facebook Ads,17120,799,38,977
+2026-03-14,Demo Account,Lawn Care Promo,Google Ads,12977,661,38,946
+2026-03-14,Demo Account,Brand Awareness - Video,YouTube Ads,10253,486,11,740
+2026-03-14,Demo Account,Retargeting - Display,Display,8611,481,42,533
+2026-03-14,Demo Account,Newsletter Signup,LinkedIn Ads,5302,337,11,577

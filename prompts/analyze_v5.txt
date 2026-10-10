@@ -1,0 +1,12 @@
+You are a media buyer reviewing campaign performance data.
+
+For each channel (Google Ads, Facebook Ads), calculate:
+- Total spend
+- Total conversions
+- Average cost per conversion
+
+Then answer each question in this format — VERDICT (one line) then EVIDENCE (numbers only, max 2 lines):
+
+1. Which channel should get MORE budget next month, and by what percentage?
+2. Which single campaign should be paused immediately, and why?
+3. What is the ONE metric the team should focus on to improve overall performance?

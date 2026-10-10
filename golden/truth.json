@@ -1,0 +1,779 @@
+{
+  "cases": [
+    {
+      "case_id": "c01_plain",
+      "description": "Four campaigns, no tricks",
+      "file": "golden/data/c01_plain.csv"
+    },
+    {
+      "case_id": "c02_spike",
+      "description": "One-day cost spike on one campaign",
+      "file": "golden/data/c02_spike.csv"
+    },
+    {
+      "case_id": "c03_zero_conv",
+      "description": "A campaign with spend and zero conversions",
+      "file": "golden/data/c03_zero_conv.csv"
+    },
+    {
+      "case_id": "c04_single",
+      "description": "One campaign only",
+      "file": "golden/data/c04_single.csv"
+    },
+    {
+      "case_id": "c05_close",
+      "description": "Two campaigns with close cost per conversion",
+      "file": "golden/data/c05_close.csv"
+    },
+    {
+      "case_id": "c06_missing",
+      "description": "Blank conversion cells",
+      "file": "golden/data/c06_missing.csv"
+    },
+    {
+      "case_id": "c07_big",
+      "description": "Large numbers",
+      "file": "golden/data/c07_big.csv"
+    },
+    {
+      "case_id": "c08_drop",
+      "description": "Conversions collapse from a date",
+      "file": "golden/data/c08_drop.csv"
+    },
+    {
+      "case_id": "c09_many",
+      "description": "Six campaigns",
+      "file": "golden/data/c09_many.csv"
+    },
+    {
+      "case_id": "c10_short",
+      "description": "Only three days of data",
+      "file": "golden/data/c10_short.csv"
+    },
+    {
+      "case_id": "c11_spike_zero",
+      "description": "Spike plus zero-conversion campaign",
+      "file": "golden/data/c11_spike_zero.csv"
+    },
+    {
+      "case_id": "c12_retarget",
+      "description": "Five campaigns over three weeks",
+      "file": "golden/data/c12_retarget.csv"
+    }
+  ],
+  "seed": 7,
+  "truth": {
+    "c01_plain": {
+      "best": "Lawn Care Promo",
+      "campaigns": {
+        "Brand Awareness - Video": {
+          "channel": "YouTube Ads",
+          "clicks": 7015,
+          "conversions": 155,
+          "cost": 11660.0,
+          "cpa": 75.23
+        },
+        "Lawn Care Promo": {
+          "channel": "Google Ads",
+          "clicks": 9179,
+          "conversions": 531,
+          "cost": 12334.0,
+          "cpa": 23.23
+        },
+        "Spring Sale - Search": {
+          "channel": "Google Ads",
+          "clicks": 11423,
+          "conversions": 545,
+          "cost": 15992.0,
+          "cpa": 29.34
+        },
+        "Spring Sale - Social": {
+          "channel": "Facebook Ads",
+          "clicks": 11554,
+          "conversions": 434,
+          "cost": 13574.0,
+          "cpa": 31.28
+        }
+      },
+      "dates": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-07",
+        "2026-03-08",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14"
+      ],
+      "ranked_by_cpa": [
+        "Lawn Care Promo",
+        "Spring Sale - Search",
+        "Spring Sale - Social",
+        "Brand Awareness - Video"
+      ],
+      "total_conversions": 1665,
+      "total_cost": 53560.0,
+      "worst": "Brand Awareness - Video"
+    },
+    "c02_spike": {
+      "anomaly": {
+        "campaign": "Spring Sale - Social",
+        "date": "2026-03-09",
+        "kind": "cost spike, conversions flat"
+      },
+      "best": "Lawn Care Promo",
+      "campaigns": {
+        "Brand Awareness - Video": {
+          "channel": "YouTube Ads",
+          "clicks": 6889,
+          "conversions": 155,
+          "cost": 11265.0,
+          "cpa": 72.68
+        },
+        "Lawn Care Promo": {
+          "channel": "Google Ads",
+          "clicks": 9165,
+          "conversions": 513,
+          "cost": 12675.0,
+          "cpa": 24.71
+        },
+        "Spring Sale - Search": {
+          "channel": "Google Ads",
+          "clicks": 11144,
+          "conversions": 564,
+          "cost": 15485.0,
+          "cpa": 27.46
+        },
+        "Spring Sale - Social": {
+          "channel": "Facebook Ads",
+          "clicks": 12048,
+          "conversions": 474,
+          "cost": 16920.0,
+          "cpa": 35.7
+        }
+      },
+      "dates": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-07",
+        "2026-03-08",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14"
+      ],
+      "ranked_by_cpa": [
+        "Lawn Care Promo",
+        "Spring Sale - Search",
+        "Spring Sale - Social",
+        "Brand Awareness - Video"
+      ],
+      "total_conversions": 1706,
+      "total_cost": 56345.0,
+      "worst": "Brand Awareness - Video"
+    },
+    "c03_zero_conv": {
+      "best": "Lawn Care Promo",
+      "campaigns": {
+        "Brand Awareness - Video": {
+          "channel": "YouTube Ads",
+          "clicks": 6582,
+          "conversions": 0,
+          "cost": 11217.0,
+          "cpa": null
+        },
+        "Lawn Care Promo": {
+          "channel": "Google Ads",
+          "clicks": 9211,
+          "conversions": 528,
+          "cost": 12446.0,
+          "cpa": 23.57
+        },
+        "Spring Sale - Search": {
+          "channel": "Google Ads",
+          "clicks": 10466,
+          "conversions": 545,
+          "cost": 14771.0,
+          "cpa": 27.1
+        },
+        "Spring Sale - Social": {
+          "channel": "Facebook Ads",
+          "clicks": 11765,
+          "conversions": 483,
+          "cost": 13988.0,
+          "cpa": 28.96
+        }
+      },
+      "dates": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-07",
+        "2026-03-08",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14"
+      ],
+      "ranked_by_cpa": [
+        "Lawn Care Promo",
+        "Spring Sale - Search",
+        "Spring Sale - Social"
+      ],
+      "total_conversions": 1556,
+      "total_cost": 52422.0,
+      "worst": "Spring Sale - Social",
+      "zero_conversion_campaigns": [
+        "Brand Awareness - Video"
+      ]
+    },
+    "c04_single": {
+      "best": "Spring Sale - Search",
+      "campaigns": {
+        "Spring Sale - Search": {
+          "channel": "Google Ads",
+          "clicks": 10814,
+          "conversions": 525,
+          "cost": 15174.0,
+          "cpa": 28.9
+        }
+      },
+      "dates": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-07",
+        "2026-03-08",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14"
+      ],
+      "ranked_by_cpa": [
+        "Spring Sale - Search"
+      ],
+      "total_conversions": 525,
+      "total_cost": 15174.0,
+      "worst": null
+    },
+    "c05_close": {
+      "best": "Lawn Care Promo",
+      "campaigns": {
+        "Lawn Care Promo": {
+          "channel": "Google Ads",
+          "clicks": 8828,
+          "conversions": 515,
+          "cost": 11721.0,
+          "cpa": 22.76
+        },
+        "Spring Sale - Search": {
+          "channel": "Google Ads",
+          "clicks": 10803,
+          "conversions": 570,
+          "cost": 15161.0,
+          "cpa": 26.6
+        },
+        "Spring Sale - Social": {
+          "channel": "Facebook Ads",
+          "clicks": 11681,
+          "conversions": 612,
+          "cost": 14216.0,
+          "cpa": 23.23
+        }
+      },
+      "dates": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-07",
+        "2026-03-08",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14"
+      ],
+      "ranked_by_cpa": [
+        "Lawn Care Promo",
+        "Spring Sale - Social",
+        "Spring Sale - Search"
+      ],
+      "total_conversions": 1697,
+      "total_cost": 41098.0,
+      "worst": "Spring Sale - Search"
+    },
+    "c06_missing": {
+      "best": "Lawn Care Promo",
+      "campaigns": {
+        "Brand Awareness - Video": {
+          "channel": "YouTube Ads",
+          "clicks": 6924,
+          "conversions": 155,
+          "cost": 11447.0,
+          "cpa": 73.85
+        },
+        "Lawn Care Promo": {
+          "channel": "Google Ads",
+          "clicks": 9316,
+          "conversions": 519,
+          "cost": 12758.0,
+          "cpa": 24.58
+        },
+        "Spring Sale - Search": {
+          "channel": "Google Ads",
+          "clicks": 10956,
+          "conversions": 549,
+          "cost": 15437.0,
+          "cpa": 28.12
+        },
+        "Spring Sale - Social": {
+          "channel": "Facebook Ads",
+          "clicks": 11930,
+          "conversions": 352,
+          "cost": 14198.0,
+          "cpa": 40.34
+        }
+      },
+      "dates": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-07",
+        "2026-03-08",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14"
+      ],
+      "missing_values": true,
+      "ranked_by_cpa": [
+        "Lawn Care Promo",
+        "Spring Sale - Search",
+        "Spring Sale - Social",
+        "Brand Awareness - Video"
+      ],
+      "total_conversions": 1575,
+      "total_cost": 53840.0,
+      "worst": "Brand Awareness - Video"
+    },
+    "c07_big": {
+      "best": "Retargeting - Display",
+      "campaigns": {
+        "Brand Awareness - Video": {
+          "channel": "YouTube Ads",
+          "clicks": 401361,
+          "conversions": 8519,
+          "cost": 673452.0,
+          "cpa": 79.05
+        },
+        "Lawn Care Promo": {
+          "channel": "Google Ads",
+          "clicks": 594711,
+          "conversions": 33939,
+          "cost": 795621.0,
+          "cpa": 23.44
+        },
+        "Retargeting - Display": {
+          "channel": "Display",
+          "clicks": 410104,
+          "conversions": 31010,
+          "cost": 427426.0,
+          "cpa": 13.78
+        },
+        "Spring Sale - Search": {
+          "channel": "Google Ads",
+          "clicks": 662990,
+          "conversions": 34176,
+          "cost": 935881.0,
+          "cpa": 27.38
+        },
+        "Spring Sale - Social": {
+          "channel": "Facebook Ads",
+          "clicks": 704515,
+          "conversions": 27420,
+          "cost": 826498.0,
+          "cpa": 30.14
+        }
+      },
+      "dates": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-07",
+        "2026-03-08",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14"
+      ],
+      "ranked_by_cpa": [
+        "Retargeting - Display",
+        "Lawn Care Promo",
+        "Spring Sale - Search",
+        "Spring Sale - Social",
+        "Brand Awareness - Video"
+      ],
+      "total_conversions": 135064,
+      "total_cost": 3658878.0,
+      "worst": "Brand Awareness - Video"
+    },
+    "c08_drop": {
+      "anomaly": {
+        "campaign": "Lawn Care Promo",
+        "date": "2026-03-10",
+        "kind": "conversions collapse from this date"
+      },
+      "best": "Spring Sale - Search",
+      "campaigns": {
+        "Brand Awareness - Video": {
+          "channel": "YouTube Ads",
+          "clicks": 6406,
+          "conversions": 140,
+          "cost": 10942.0,
+          "cpa": 78.16
+        },
+        "Lawn Care Promo": {
+          "channel": "Google Ads",
+          "clicks": 8962,
+          "conversions": 352,
+          "cost": 12424.0,
+          "cpa": 35.3
+        },
+        "Spring Sale - Search": {
+          "channel": "Google Ads",
+          "clicks": 11490,
+          "conversions": 585,
+          "cost": 15663.0,
+          "cpa": 26.77
+        },
+        "Spring Sale - Social": {
+          "channel": "Facebook Ads",
+          "clicks": 11437,
+          "conversions": 458,
+          "cost": 13865.0,
+          "cpa": 30.27
+        }
+      },
+      "dates": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-07",
+        "2026-03-08",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14"
+      ],
+      "ranked_by_cpa": [
+        "Spring Sale - Search",
+        "Spring Sale - Social",
+        "Lawn Care Promo",
+        "Brand Awareness - Video"
+      ],
+      "total_conversions": 1535,
+      "total_cost": 52894.0,
+      "worst": "Brand Awareness - Video"
+    },
+    "c09_many": {
+      "best": "Retargeting - Display",
+      "campaigns": {
+        "Brand Awareness - Video": {
+          "channel": "YouTube Ads",
+          "clicks": 6687,
+          "conversions": 145,
+          "cost": 11032.0,
+          "cpa": 76.08
+        },
+        "Lawn Care Promo": {
+          "channel": "Google Ads",
+          "clicks": 9404,
+          "conversions": 533,
+          "cost": 12694.0,
+          "cpa": 23.82
+        },
+        "Newsletter Signup": {
+          "channel": "LinkedIn Ads",
+          "clicks": 5024,
+          "conversions": 169,
+          "cost": 8998.0,
+          "cpa": 53.24
+        },
+        "Retargeting - Display": {
+          "channel": "Display",
+          "clicks": 6955,
+          "conversions": 543,
+          "cost": 7288.0,
+          "cpa": 13.42
+        },
+        "Spring Sale - Search": {
+          "channel": "Google Ads",
+          "clicks": 11246,
+          "conversions": 587,
+          "cost": 15431.0,
+          "cpa": 26.29
+        },
+        "Spring Sale - Social": {
+          "channel": "Facebook Ads",
+          "clicks": 11833,
+          "conversions": 461,
+          "cost": 14198.0,
+          "cpa": 30.8
+        }
+      },
+      "dates": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-07",
+        "2026-03-08",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14"
+      ],
+      "ranked_by_cpa": [
+        "Retargeting - Display",
+        "Lawn Care Promo",
+        "Spring Sale - Search",
+        "Spring Sale - Social",
+        "Newsletter Signup",
+        "Brand Awareness - Video"
+      ],
+      "total_conversions": 2438,
+      "total_cost": 69641.0,
+      "worst": "Brand Awareness - Video"
+    },
+    "c10_short": {
+      "best": "Lawn Care Promo",
+      "campaigns": {
+        "Lawn Care Promo": {
+          "channel": "Google Ads",
+          "clicks": 2054,
+          "conversions": 108,
+          "cost": 2693.0,
+          "cpa": 24.94
+        },
+        "Spring Sale - Search": {
+          "channel": "Google Ads",
+          "clicks": 2519,
+          "conversions": 123,
+          "cost": 3333.0,
+          "cpa": 27.1
+        },
+        "Spring Sale - Social": {
+          "channel": "Facebook Ads",
+          "clicks": 2594,
+          "conversions": 96,
+          "cost": 2940.0,
+          "cpa": 30.62
+        }
+      },
+      "dates": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03"
+      ],
+      "ranked_by_cpa": [
+        "Lawn Care Promo",
+        "Spring Sale - Search",
+        "Spring Sale - Social"
+      ],
+      "total_conversions": 327,
+      "total_cost": 8966.0,
+      "worst": "Spring Sale - Social"
+    },
+    "c11_spike_zero": {
+      "anomaly": {
+        "campaign": "Retargeting - Display",
+        "date": "2026-03-04",
+        "kind": "cost spike, conversions flat"
+      },
+      "best": "Retargeting - Display",
+      "campaigns": {
+        "Brand Awareness - Video": {
+          "channel": "YouTube Ads",
+          "clicks": 6521,
+          "conversions": 0,
+          "cost": 11167.0,
+          "cpa": null
+        },
+        "Lawn Care Promo": {
+          "channel": "Google Ads",
+          "clicks": 9279,
+          "conversions": 520,
+          "cost": 12378.0,
+          "cpa": 23.8
+        },
+        "Retargeting - Display": {
+          "channel": "Display",
+          "clicks": 6854,
+          "conversions": 535,
+          "cost": 9087.0,
+          "cpa": 16.99
+        },
+        "Spring Sale - Search": {
+          "channel": "Google Ads",
+          "clicks": 11215,
+          "conversions": 570,
+          "cost": 15525.0,
+          "cpa": 27.24
+        },
+        "Spring Sale - Social": {
+          "channel": "Facebook Ads",
+          "clicks": 11285,
+          "conversions": 458,
+          "cost": 13294.0,
+          "cpa": 29.03
+        }
+      },
+      "dates": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-07",
+        "2026-03-08",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14"
+      ],
+      "ranked_by_cpa": [
+        "Retargeting - Display",
+        "Lawn Care Promo",
+        "Spring Sale - Search",
+        "Spring Sale - Social"
+      ],
+      "total_conversions": 2083,
+      "total_cost": 61451.0,
+      "worst": "Spring Sale - Social",
+      "zero_conversion_campaigns": [
+        "Brand Awareness - Video"
+      ]
+    },
+    "c12_retarget": {
+      "best": "Retargeting - Display",
+      "campaigns": {
+        "Brand Awareness - Video": {
+          "channel": "YouTube Ads",
+          "clicks": 10013,
+          "conversions": 225,
+          "cost": 16891.0,
+          "cpa": 75.07
+        },
+        "Lawn Care Promo": {
+          "channel": "Google Ads",
+          "clicks": 13681,
+          "conversions": 767,
+          "cost": 18660.0,
+          "cpa": 24.33
+        },
+        "Retargeting - Display": {
+          "channel": "Display",
+          "clicks": 10085,
+          "conversions": 730,
+          "cost": 10514.0,
+          "cpa": 14.4
+        },
+        "Spring Sale - Search": {
+          "channel": "Google Ads",
+          "clicks": 17282,
+          "conversions": 887,
+          "cost": 23813.0,
+          "cpa": 26.85
+        },
+        "Spring Sale - Social": {
+          "channel": "Facebook Ads",
+          "clicks": 17372,
+          "conversions": 711,
+          "cost": 20907.0,
+          "cpa": 29.41
+        }
+      },
+      "dates": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-07",
+        "2026-03-08",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14",
+        "2026-03-15",
+        "2026-03-16",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-21"
+      ],
+      "ranked_by_cpa": [
+        "Retargeting - Display",
+        "Lawn Care Promo",
+        "Spring Sale - Search",
+        "Spring Sale - Social",
+        "Brand Awareness - Video"
+      ],
+      "total_conversions": 3320,
+      "total_cost": 90785.0,
+      "worst": "Brand Awareness - Video"
+    }
+  }
+}

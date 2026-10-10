@@ -1,0 +1,17 @@
+You are writing a brief for a CMO who has 2 minutes to read this.
+
+Structure your response exactly as follows:
+
+BOTTOM LINE
+One sentence summary of the most important finding. Must include a dollar amount.
+
+CAMPAIGN RANKING (best to worst by efficiency)
+Rank all campaigns with a one-line reason for each. Include cost-per-conversion for every entry.
+
+BUDGET MOVE
+Specific reallocation recommendation in dollars and percentages. State the expected gain in conversions.
+
+WATCH OUT
+One risk or anomaly in the data worth flagging. Be specific about which campaign and date.
+
+No markdown headers beyond the ones above. No bullet sub-points. Keep each section under 3 sentences.
